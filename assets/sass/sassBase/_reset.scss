@@ -1,0 +1,76 @@
+/* ===========================
+   RESET GLOBAL
+=========================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===========================
+   VARIÁVEIS GLOBAIS
+=========================== */
+:root {
+    --font-primary: "Inter", sans-serif;
+
+    --background-primario: rgb(34, 51, 64);
+
+
+    --color-texto-primaria: rgb(175, 185, 196);
+
+
+    --space-2: 1rem;
+    --space-5: 2.4rem;
+
+    --space-p: 1.3rem;
+    --space-h1: 2.5rem;
+    --space-h2: 2rem;
+    --space-h3: 1.6rem;
+}
+
+/* ===========================
+   ESTILOS BASE
+=========================== */
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--background-primario);
+    color: var(--color-texto-primaria);
+    margin: auto;
+}
+
+/* Classes utilitárias */
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-primary {
+    padding: var(--space-2) var(--space-5);
+    border-radius: var(--radius);
+    font-size: 14px;
+    background: var(--background-color-button-banner);
+    color: var(--color-texto-titulo-banner);
+    border: 0;
+    margin: 2rem 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
