@@ -16,7 +16,7 @@
     --background-primario: rgb(34, 51, 64);
 
 
-    --color-texto-primaria: rgb(175, 185, 196);
+    --color-texto-primaria: rgb(237, 238, 244);
 
 
     --space-2: 1rem;
@@ -55,22 +55,11 @@ body {
     align-items: center;
 }
 
-.button-primary {
-    padding: var(--space-2) var(--space-5);
-    border-radius: var(--radius);
-    font-size: 14px;
-    background: var(--background-color-button-banner);
-    color: var(--color-texto-titulo-banner);
-    border: 0;
-    margin: 2rem 0;
-    font-weight: 500;
-    cursor: pointer;
-}
-
 li {
     list-style: none;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
 }

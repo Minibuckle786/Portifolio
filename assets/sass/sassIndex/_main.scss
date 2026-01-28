@@ -1,0 +1,24 @@
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100vw;
+}
+
+.banner h2 {
+    font-size: 2rem;
+}
+
+.banner h1 {
+    font-size: 1.4rem;
+}
+
+.banner-texto {
+    position: absolute;
+    top: 28px;
+    right: 2px;
+    border: 1px solid red;
+    width: 190px;
+    color: black;
+}

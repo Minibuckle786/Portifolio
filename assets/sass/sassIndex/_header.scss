@@ -1,0 +1,23 @@
+.header-layout {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 5rem;
+}
+
+.header-ul {
+    gap: 1.6rem;
+}
+
+.header-ul a {
+    padding-bottom: 1rem;
+}
+
+.header-ul a:hover,
+.header-ul a.active {
+    border-bottom: 2px solid var(--color-texto-primaria);
+}
+
+.header-ul:hover a.active {
+    border-bottom: none;
+}

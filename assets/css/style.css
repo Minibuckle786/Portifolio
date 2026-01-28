@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* ===========================
+   RESET GLOBAL
+=========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===========================
+   VARIÁVEIS GLOBAIS
+=========================== */
+:root {
+  --font-primary: "Inter", sans-serif;
+  --background-primario: rgb(34, 51, 64);
+  --color-texto-primaria: rgb(237, 238, 244);
+  --space-2: 1rem;
+  --space-5: 2.4rem;
+  --space-p: 1.3rem;
+  --space-h1: 2.5rem;
+  --space-h2: 2rem;
+  --space-h3: 1.6rem;
+}
+
+/* ===========================
+   ESTILOS BASE
+=========================== */
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--background-primario);
+  color: var(--color-texto-primaria);
+  margin: auto;
+}
+
+/* Classes utilitárias */
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-layout {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 5rem;
+}
+
+.header-ul {
+  gap: 1.6rem;
+}
+
+.header-ul a {
+  padding-bottom: 1rem;
+}
+
+.header-ul a:hover,
+.header-ul a.active {
+  border-bottom: 2px solid var(--color-texto-primaria);
+}
+
+.header-ul:hover a.active {
+  border-bottom: none;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100vw;
+}
+
+.banner h2 {
+  font-size: 2rem;
+}
+
+.banner h1 {
+  font-size: 1.4rem;
+}
+
+.banner-texto {
+  position: absolute;
+  top: 28px;
+  right: 2px;
+  border: 1px solid red;
+  width: 190px;
+  color: black;
+}
+
+/* 390 × 844 (iPhone 12) */
+/* É o mais atual, confortável e perfeito pra desenhar o layout mobile. */
+/* CSS base = mobile */
+/* Tablet */
+/* Desktop */
+/* Desktop grande */
+
+/*# sourceMappingURL=style.css.map */
