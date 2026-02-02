@@ -5,10 +5,162 @@
 /* CSS base = mobile */
 
 /* Tablet */
-@media (min-width: 600px) {}
+@media (min-width: 600px) {
+    .header-layout {
+        font-size: 1.6rem;
+        height: 6rem;
+    }
+
+    .header-layout li {
+        font-size: 1.4rem;
+    }
+
+    .banner-texto {
+        top: 70px;
+        right: 30px;
+        width: 240px;
+    }
+
+    .banner h2 {
+        font-size: 2.6rem;
+    }
+
+    .banner-texto>div:first-of-type {
+        line-height: 3rem;
+    }
+
+    .social-nav button {
+        font-size: 1.4rem;
+        padding: 15px 20px;
+    }
+
+    .social-nav nav {
+        gap: 20px;
+    }
+
+    .social-nav img {
+        width: 25px;
+        margin-top: 10px;
+    }
+
+    .projetos h2,
+    .contato h2,
+    .sobre-mim h2 {
+        font-size: 2rem;
+    }
+
+    .projetos p,
+    .contato p,
+    .sobre-mim p {
+        padding-top: 25px;
+        font-size: 1.4rem;
+    }
+
+    .sobre-mim li img {
+        width: 50px;
+    }
+
+    .projetos li img {
+        height: 200px;
+    }
+
+    .projetos h3 {
+        padding: 20px;
+        font-size: 1.6rem;
+    }
+
+    .projetos button {
+        padding: 10px 20px;
+    }
+}
 
 /* Desktop */
-@media (min-width: 900px) {}
+@media (min-width: 900px) {
+    .header-layout {
+        font-size: 1.8rem;
+        height: 7rem;
+    }
+
+    .header-layout li {
+        font-size: 1.5rem;
+    }
+
+    .banner-texto {
+        top: 130px;
+        right: 80px;
+        width: 300px;
+    }
+
+    .banner h2 {
+        font-size: 3.2rem;
+    }
+
+    .banner h1 {
+        font-size: 1.8rem;
+    }
+
+    .banner-texto>div:first-of-type {
+        line-height: 4rem;
+    }
+
+    .social-nav img {
+        width: 30px;
+        margin-top: 15px;
+    }
+
+    .social-nav button {
+        font-size: 1.5rem;
+    }
+
+    .projetos h2,
+    .contato h2,
+    .sobre-mim h2 {
+        font-size: 2.4rem;
+    }
+
+    .projetos p,
+    .contato p,
+    .sobre-mim p {
+        padding-top: 31px;
+        font-size: 1.6rem;
+    }
+
+    .sobre-mim ul {
+        margin: 30px;
+        gap: 30px;
+    }
+
+}
 
 /* Desktop grande */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .header-layout {
+        font-size: 2rem;
+        height: 8rem;
+    }
+
+    .banner-texto {
+        top: 180px;
+        right: 180px;
+        width: 340px;
+    }
+
+    .banner-texto>div:first-of-type {
+        line-height: 5rem;
+    }
+
+    .banner h2 {
+        font-size: 3.8rem;
+    }
+
+    .social-nav img {
+        width: 40px;
+        margin-top: 20px;
+    }
+
+    .projetos h2,
+    .contato h2,
+    .sobre-mim h2 {
+        font-size: 2.7rem;
+    }
+}
